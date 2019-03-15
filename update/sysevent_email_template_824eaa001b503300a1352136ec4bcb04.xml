@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_58872_needit_needit_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${assigned_to.first_name}</p>
+<p>&nbsp;An overdue NeedIt Task is assigned to you:</p>
+<p>Number: ${number}</p>
+<p>Please complete this task as soon as possible.</p>
+<p>Click here to view the NeedIt Task record: ${URI_REF}</p>
+<pre><code>${mail_script:CountOverdueNeedItTasksAssignedTo}<br /><br /></code></pre>
+<pre><code>${mailto:mailto.closeneedittask}</code></pre>
+<pre><code>&nbsp;</code></pre>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>this field should be empty</name>
+        <sms_alternate/>
+        <subject>Overdue NeedIt Task: ${}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-15 13:49:47</sys_created_on>
+        <sys_id>824eaa001b503300a1352136ec4bcb04</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>this field should be empty</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_824eaa001b503300a1352136ec4bcb04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-15 15:17:41</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
